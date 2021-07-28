@@ -1,3 +1,4 @@
+
 html,body {
     width: 100%;
     height: 100%;
@@ -17,8 +18,9 @@ html,body {
     display: flex;
     flex-direction: column;
     height: 50%;
-    background-image: url(../../img/arch.png);
+    background-image: url(../img/arch.png);
     background-position: center;
+    margin-bottom: 50px;
 }
 
 #about {
@@ -31,6 +33,12 @@ html,body {
 
 #about h2 {
     font-size: 17px;
+}
+
+#about img {
+    display: block;
+    padding: 0;
+    margin: 0;
 }
 
 #menus {
@@ -51,4 +59,40 @@ a {
 
 #me img{
     border-radius: 50%;
+}
+
+#tec {
+    background-color: #4c566a;
+    height: 700px;
+}
+
+#tec p {
+    font-size: 21px;
+    font-weight: 100;
+}
+
+#tec h1, #tec p {
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    padding: 0;
+    padding-top: 70px;
+    text-align: center;
+}
+
+#langs {
+    display: flex;
+    width: 50%;
+    margin: 50px auto 0 auto;
+    justify-content: center;
+    align-self: center;
+}
+
+#langs img {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+#langs svg {
+    margin-top: 70px;
+    margin-left: 30px;
 }
