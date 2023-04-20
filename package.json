@@ -2,7 +2,7 @@
   "name": "andy-portfolio",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://arthurcommodore.github.io/portfolio",
+  "homepage": "https://arthurcommodore.github.io/",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
