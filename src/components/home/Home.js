@@ -1,6 +1,6 @@
 import React from 'react';
 import Style from './Home.module.scss';
-import me from '../../assets/img/self.png';
+import me from '../../assets/img/self.jpg';
 import classNames from 'classnames';
 import EmojiBullet from './EmojiBullet';
 import SocialIcon from './SocialIcon';
@@ -44,7 +44,7 @@ export default function Home({ darkMode }) {
         }}
       >
         <h1>
-          Hi, I'm{' '}
+          Eu sou{' '}
           <span
             style={{
               background: info.gradient,
@@ -56,7 +56,7 @@ export default function Home({ darkMode }) {
           </span>
           <span className={Style.hand}>🤚</span>
         </h1>
-        <h2>I'm {info.position}.</h2>
+        <h2>{info.position}.</h2>
         <Box component={'ul'} p={'0.8rem'}>
           {info.miniBio.map((bio, index) => (
             <EmojiBullet key={index} emoji={bio.emoji} text={bio.text} />

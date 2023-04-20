@@ -7,7 +7,6 @@ import Portfolio from './portfolio/Portfolio';
 import { Route, Routes } from 'react-router-dom';
 import { Box, Grid } from '@mui/material';
 import ParticlesBg from './particles/ParticlesBg';
-import { logGa } from '../utils/log';
 
 export default function BaseLayout() {
   let [darkMode, setDarkMode] = useState(false);
@@ -16,7 +15,6 @@ export default function BaseLayout() {
     let oppositeOfCurrentDarkMode = !darkMode;
     localStorage.setItem('darkMode', `${oppositeOfCurrentDarkMode}`);
     setDarkMode(oppositeOfCurrentDarkMode);
-    logGa('dark_mode_toggle', oppositeOfCurrentDarkMode ? 'dark' : 'light');
   }
 
   useEffect(() => {
@@ -57,7 +55,7 @@ export default function BaseLayout() {
           <Routes>
             <Route exact path={'/'} element={<Home darkMode={darkMode} />} />
             <Route exact path={'/about'} element={<About />} />
-            <Route exact path={'/portfolio'} element={<Portfolio />} />
+            <Route exact path={'/exp'} element={<Portfolio />} />
           </Routes>
         </Grid>
         <Grid item>
