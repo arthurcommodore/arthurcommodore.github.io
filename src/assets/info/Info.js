@@ -37,8 +37,8 @@ export const info = {
             label: 'linkedin',
         },
     ],
-    bio: `Programador há mais de 6 anos, nesse período fui aprendendo muito com dezenas de cursos profissionalizantes na área, e também com várias oportunidades de colocar tudo em prática.
-    Nas diversas oportunidades que tive, trabalhei em muitos projetos, dos quais alguns estava sozinho e outros em equipe, todos eles me forneceram conhecimento e prática para estar trabalhando com versionamento de código com confiança, domínio em regras de negócios mais complexas, modelagem de dados, banco de dados, Scrum.`,
+    bio: `Com mais de 4 anos de experiência como programador, tenho conhecimento sólido em versionamento de código, regras de negócios, modelagem de dados, bancos de dados e metodologia Scrum. Trabalhei em diversos projetos, tanto sozinho quanto em equipe, o que me deu uma base sólida para enfrentar desafios. Estou pronto para aplicar minhas habilidades em novos projetos e continuar crescendo como um programador júnior.
+    `,
     skills: {
         // you dont havew to strictly follow the 'languages', 'frameworks', 'databases', 'cloudServices', and 'tools' categories. You can add your own if you'd like.
         // but the structure should be the same, an array of strings and the key should be one word, no spaces.
